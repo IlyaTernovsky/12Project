@@ -33,12 +33,18 @@ ul {
     font-size: 48px;
 }
 
+.page-section__title-36px {
+    margin-left: 300px;
+    font-size: 36px;
+    font-weight: normal;
+}
+
 .page-header__row {
     display: flex;
     align-items: center;
     justify-content: space-between;
     height: 180px;
-    line-height: 140%;
+    line-height: 145%;
 }
 
 .page-header__left {
@@ -170,7 +176,7 @@ ul {
     flex-direction: column;
     justify-content: space-between;
     font-size: 18px;
-    line-height: 140%;
+    line-height: 145%;
 }
 
 .order-form a {
@@ -239,40 +245,40 @@ ul {
     border: none;
 }
 
-.section-reviews__row {
+.section-gallery__row {
     display: flex;
     align-items: center;
     position: relative;
     margin-left: 300px;
 }
 
-.section-reviews__row a {
+.section-gallery__row a {
     position: absolute;
     right: 60px;
 }
 
-.section-reviews__item {
+.section-gallery__item {
     margin: 10px;
 }
 
-.section-designers__row {
+.section-workers__row {
     display: flex;
     align-items: center;
     position: relative;
     margin-left: 300px;
 }
 
-.section-designers__row a {
+.section-workers__row a {
     position: absolute;
     right: 60px;
 }
 
-.section-designers__item {
+.section-workers__item {
     margin: 10px;
     text-align: right;
 }
 
-.section-designers__item h3 {
+.section-workers__item h3 {
     font-size: 18px;
     line-height: 80%;
 }
@@ -280,7 +286,7 @@ ul {
 .section-faq__main {
     margin-left: 300px;
     font-size: 18px;
-    line-height: 140%;
+    line-height: 145%;
     background: #F8F8F8;
 }
 
@@ -312,7 +318,7 @@ ul {
     align-items: center;
     justify-content: space-between;
     height: 180px;
-    line-height: 140%;
+    line-height: 145%;
 }
 
 .page-footer__left {
@@ -343,4 +349,171 @@ ul {
 
 .social-list__item {
     margin-right: 20px;
+}
+
+.breadcrumbs {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 14px;
+    line-height: 145%;
+}
+
+.breadcrumbs a {
+    color: #A0A0A0;
+}
+
+.section-company__row {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 300px;
+}
+
+.section-company__text {
+    padding-left: 40px;
+    line-height: 145%;
+}
+
+.section-company__text span {
+    font-size: 36px;
+}
+
+.section-designers__item {
+    display: flex;
+    margin-top: 150px;
+}
+
+.section-designers__item--middle {
+    align-items: flex-end;
+    margin-bottom: 300px;
+}
+
+.section-designers__photo {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #de0101;
+}
+
+.section-designers__photo img {
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
+
+.section-designers__photo--right img {
+    position: absolute;
+    top: 25px;
+    left: -75px;
+}
+
+.section-designers__text {
+    width: 800px;
+    padding-left: 150px;
+    padding-right: 200px;
+    box-sizing: border-box;
+    line-height: 175%;
+}
+
+.section-designers__text h3 {
+    font-weight: bold;
+}
+
+.section-designers__text span {
+    color: #de0101;
+}
+
+.section-photos__main {
+    position: relative;
+    width: 1200px;
+    height: 900px;
+}
+
+.section-photos__item1 {
+    position: absolute;
+    left: 200px;
+}
+
+.section-photos__item2 {
+    position: absolute;
+    top: 120px;
+}
+
+.section-photos__item3 {
+    position: absolute;
+    top: 40px;
+    right: 0;
+}
+
+.section-photos__item4 {
+    position: absolute;
+    left: 480px;
+    bottom: 0;
+}
+
+.review {
+    display: flex;
+    align-items: flex-start;
+    padding: 120px 90px 60px 90px;
+    background-color: #EAEAEA;
+}
+
+.review__main {
+    margin-left: 90px;
+    font-size: 22px;
+    line-height: 150%;
+}
+
+.review__author {
+    font-weight: bold;
+    margin: 30px 0;
+}
+.section-reviews__footer {
+    display: flex;
+    justify-content: right;
+    margin: 40px 100px;
+}
+.slider-nav {
+    display: flex;
+    align-items: center;
+}
+
+.slider-nav__circle {
+    margin: 8px;
+}
+
+.slider-nav__arrow {
+    margin-left: 75px;
+}
+
+.section-vacancies__row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.section-vacancies__text {
+    padding-right: 60px;
+    font-size: 24px;
+    line-height: 130%;
+}
+
+.section-vacancies__text a {
+    font-weight: bold;
+}
+
+.vacancy-card {
+    padding: 35px 0;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 130%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.vacancy-card:last-child {
+    border-bottom: none;
+}
+
+.vacancy-card__toggle {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
 }
