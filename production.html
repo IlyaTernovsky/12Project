@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Sprinter - О нас</title>
+    <title>Sprinter - Производство</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -33,139 +33,89 @@
     <main>
         <div class="container">
             <div class="breadcrumbs">
-               <span> <a href="index.html">Главная</a> / О нас</span>
+                <span><a href="index.html">Главная</a> / Производство</span>
             </div>
         </div>
-        <section class="page-section section-company">
+        <div class="page-section section-production">
             <div class="container">
-                <h1 class="page-section__title">О нас</h1>
-                <div class="section-company__main">
-                    <img src="images/company.jpg" alt="">
-                    <div class="section-company__text">
-                        <p><span>Проект Sprinter</span> создан командой единомышленников и энтузиастов. Мы любим одежду и знаем, каким хотим видеть швейное производство в России.</p>
-                        <p>Наша цель — уникальный сервис, позволяющий сделать разработку одежды простой и понятной каждому клиенту.</p>
-                        <p>Богатый опыт работы в локальных и международных проектах, от стрит-ритейла до крупносерийных производств, позволили нам объединить в одном проекте все этапы создания одежды: разработку, пошив и кастомизацию.</p>
+                <div class="section-production__text">Мы изготавливаем одежду на собственном производстве, оснащенном современным швейным и печатным оборудованием ведущих мировых производителей.</div>
+                <div class="slider-production">
+                    <div class="slider-production__arrow-left">
+                        <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 23L1.5 12L12.5 1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <div class="slider-production__item">
+                        <img src="images/production-1.jpg" alt="">
+                    </div>
+                    <div class="slider-production__arrow-right">
+                        <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1L12.5 12L1.5 23" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="page-section section-designers">
+        </div>
+        <section class="page-section section-order">
             <div class="container">
-                <h2 class="page-section__title-36px">Наши дизайнеры</h2>
-                <div class="section-designers__main">
-                    <div class="section-designers__item">
-                        <div class="section-designers__photo">
-                            <img src="images/klyueva.jpg" alt="">
+                <h2 class="page-section__title">Конструктор</h2>
+                <div class="section-order__main">
+                    <form action="" class="order-form">
+                        <div>
+                            <div class="order-form__type">Футболка</div>
+                            <div><a href="#">Сменить тип изделия</a></div>
                         </div>
-                        <div class="section-designers__text">
-                            <h3>Клюева Вера <br><span>ведущий дизайнер</span></h3>
-                            <p>Получив специальность художника росписи по ткани, Вера уже со своего совершеннолетия начала работать в области дизайна одежды. Благодаря  своей руководящей работе в рамках студии, Вера принимала  участие в разработке более 500 дизайн-проектов из которых в более 150 осуществляла со своими коллегами авторский надзор.</p>
+                        <div>
+                            <div>Материал: хлопок 100%</div>
+                            <div>Плотность 190 г/м²</div>
+                            <div><a href="#">Информация о товаре</a></div>
                         </div>
-                    </div>
-                    <div class="section-designers__item-middle">
-                        <div class="section-designers__text">
-                            <h3>Екатерина Романюк <br><span>дизайнер</span></h3>
-                            <p>Екатерина – стремящийся к развитию и нацеленный на результат специалист, любящий интересные задачи и хорошо умеющий работать в команде. Она не боится внеурочной работы и всегда готова развиваться в профессиональном отношении.</p>
+                        <div>
+                            <div>Размер:</div>
+                            <select class="order-form__size">
+                                <option >40 - 42 (XXS)</option>
+                            </select>
+                            <div><a href="#">Таблица размеров</a></div>
                         </div>
-                        <div class="section-designers__photo-right">
-                            <img src="images/romanyuk.jpg" alt="">
+                        <div>
+                            <div>Цвет:</div>
+                            <input type="color" class="order-form__select-color">
+                            <input class="order-form__color" type="text" value="# 00000">
                         </div>
-                    </div>
-                    <div class="section-designers__item">
-                        <div class="section-designers__photo">
-                            <img src="images/galustyan.jpg" alt="">
+                        <div>
+                            <div>Дизайн:</div>
+                            <button class="order-form__select-image">Загрузить изображение<img src="images/select.svg" alt=""></button>
+                            <textarea class="order-form__comment" placeholder="Написать текст"></textarea>
                         </div>
-                        <div class="section-designers__text">
-                            <h3>Наталия Галустян <br><span>дизайнер</span></h3>
-                            <p>В нашей студии Наталья работает с 2018 года. Это дисциплинированный, усидчивый и ответственный сотрудник, умеющий быстро и тщательно выполнять работу и разбираться в сложных задачах.</p>
-                            <p>Одно из ценных способностей Натальи – получив профессиональное художественное образование, она умеет выполнять эскизы проектов от руки, не только с помощью специализированных компьютерных программ.</p>
-                        </div>
-                    </div>
+                        <div class="order-form__price">4000 ₽</div>
+                        <button class="order-form__submit">Оформить заказ</button>
+                    </form>
+                    <img src="images/t-shirt-poster.jpg" alt="">
                 </div>
             </div>
         </section>
-        <section class="page-section section-photos">
+        <div class="page-section section-products">
             <div class="container">
-                <h2 class="page-section__title-36px">Фото Отзывы</h2>
-                <div class="section-photos__main">
-                    <div class="section-photos__item1"><img src="images/photo-1.jpg" alt=""></div>
-                    <div class="section-photos__item2"><img src="images/photo-2.jpg" alt=""></div>
-                    <div class="section-photos__item3"><img src="images/photo-3.jpg" alt=""></div>
-                    <div class="section-photos__item4"><img src="images/photo-4.jpg" alt=""></div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section section-reviews">
-            <div class="container">
-                <h2 class="page-section__title-36px">Отзывы о нас</h2>
-                <div class="section-reviews__main">
-                    <div class="review">
-                        <img src="images/reviews-1.jpg" alt="" class="review__photo">
-                        <div class="review__main">
-                            <div class="review__text">Долго искала худи и на просторах интернета набрела на сайт Sprinter. Это что-то новое! Конструктор моделей -очень удобно и необычно. Можно самому сделать дизайн на свой вкус , стиль, цвет. После заказа на сайте моментально отзвонилась менеджер, быстро откорректировали заказ, ответила на вопросы . Худи из теплой ткани, ткань не полиняла после стирки, качество пошива отличное. Цвет шикарный. Очень теплая вещь., в путешествии по мартовскому Крыму было очень комфортно. Планирую заказать еще брюки. Спасибо за вашу работу! Желаю процветания!</div>
-                            <div class="review__author">Марианна</div>
-                        </div>
+                <h2 class="section-products__title">Наши примеры работ, сделанные на нашем производстве</h2>
+                <div class="slider-products">
+                    <div class="slider-products__arrow-left">
+                        <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12.5 23L1.5 12L12.5 1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
                     </div>
-                </div>
-                <div class="section-reviews__footer">
-                    <div class="slider-nav">
-                        <div class="slider-nav__circle slider-nav__circle--active">
-                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <ellipse rx="6.5" ry="6.03571" transform="matrix(1 0 0 -1 6.5 6.96429)" fill="#F9F9F9"/>
-                            </svg>
-                        </div>
-                        <div class="slider-nav__circle">
-                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <ellipse rx="6.5" ry="6.03571" transform="matrix(1 0 0 -1 6.5 6.96429)" fill="#050505"/>
-                            </svg>
-                        </div>
-                        <div class="slider-nav__circle">
-                            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <ellipse rx="6.5" ry="6.03571" transform="matrix(1 0 0 -1 6.5 6.96429)" fill="#050505"/>
-                            </svg>
-                        </div>
-                        <div class="slider-nav__arrow">
-                            <svg width="133" height="24" viewBox="0 0 133 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M132.061 13.0607C132.646 12.4749 132.646 11.5251 132.061 10.9393L122.515 1.3934C121.929 0.807611 120.979 0.807611 120.393 1.3934C119.808 1.97919 119.808 2.92893 120.393 3.51472L128.879 12L120.393 20.4853C119.808 21.0711 119.808 22.0208 120.393 22.6066C120.979 23.1924 121.929 23.1924 122.515 22.6066L132.061 13.0607ZM0 13.5H131V10.5H0V13.5Z" fill="black"/>
-                            </svg>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="page-section section-vacancies">
-            <div class="container">
-                <h2 class="page-section__title-36px" id="vacancies">Вакансии</h2>
-                <div class="section-vacancies__main">
-                    <div class="section-vacancies__text">
-                        <p>Мы постоянно находимся в поиске новых сотрудников, которые смогут усилить нашу команду. В настоящий момент открыты следующие вакансии:</p>
-                        <p>Не нашли подходящую вакансию? Отправьте свое резюме и сопроводительное письмо на <a href="mailto:hr@sprinter.ru">hr@sprinter.ru</a></p>
-                    </div>
-                    <ul class="vacancy-list">
-                        <li class="vacancy-list__item vacancy-card">
-                            <div class="vacancy-card__toggle">
-                                Торговый представитель
-                                <img src="images/plus.svg" alt="" class="vacancy-card__icon"></div>
-                        </li>
-                        <li class="vacancy-list__item vacancy-card">
-                            <div class="vacancy-card__toggle">
-                                Печатник на производство
-                                <img src="images/plus.svg" alt="" class="vacancy-card__icon"></div>
-                        </li>
-                        <li class="vacancy-list__item vacancy-card">
-                            <div class="vacancy-card__toggle">
-                                Менеджер по продажам
-                                <img src="images/plus.svg" alt="" class="vacancy-card__icon"></div>
-                        </li>
-                        <li class="vacancy-list__item vacancy-card">
-                            <div class="vacancy-card__toggle">
-                                Курьер
-                                <img src="images/plus.svg" alt="" class="vacancy-card__icon"></div>
-                        </li>
+                    <ul class="slider-products__list">
+                        <li class="slider-products__item"><img src="images/products-1.jpg" alt=""></li>
+                        <li class="slider-products__item"><img src="images/products-2.jpg" alt=""></li>
+                        <li class="slider-products__item"><img src="images/products-3.jpg" alt=""></li>
                     </ul>
+                    <div class="slider-products__arrow-right">
+                        <svg width="14" height="24" viewBox="0 0 14 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1.5 1L12.5 12L1.5 23" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
     </main>
     <footer class="page-footer">
         <div class="container">
